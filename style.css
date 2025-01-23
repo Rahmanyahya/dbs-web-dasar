@@ -16,6 +16,21 @@ header {
     padding-bottom: 1rem;
 }
 
+article h2 {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.contact  {
+    margin-top: 3rem;
+    color: white;
+}
+
+.contact a {
+    color: white;
+}
+
 .menu {
     display: none;
     border: black 2px;
@@ -255,6 +270,15 @@ footer {
         flex-direction: column;
         margin-top: 3rem;
     }
+
+    .contact {
+        display: none;
+    }
+
+    .aboutus {
+        text-align: center;
+    }
+
 
     .tagline {
         order: 2;
