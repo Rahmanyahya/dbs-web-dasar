@@ -83,6 +83,7 @@ a {
     transition: transform 0.3s ease-in-out; 
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 7px;
 }
 
 .sidebar a {
@@ -150,6 +151,8 @@ body.sidebar-open {
 
 .wave {
     overflow: hidden;
+    position: relative;
+    bottom: 0;
 }
 
 .profile {
